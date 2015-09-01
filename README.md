@@ -5,6 +5,10 @@ Problem: Automate an end to end user e-commerce transaction flow using any open 
 I have used selenium webdriver to automate the flow.
 I have used Page Object Model to design the automation for the checkout flow.
 
+Please run the code using cmd 
+
+mvn clean install -Dwebdriver.chrome.driver=/Users/priyanka.krishnaraj/Downloads/chromedriver
+
 Technical Debts in the code
 
 1. CartPage has elements inly to support single item in cart, if you add more than one item the cartPage cannot handle it. - Given more time I would like to fix it.
