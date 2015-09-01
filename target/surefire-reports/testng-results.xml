@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="WalmartCheckout" duration-ms="62669" started-at="2015-09-01T05:54:46Z" finished-at="2015-09-01T05:55:49Z">
+    <groups>
+    </groups>
+    <test name="WalmartCheckoutTest" duration-ms="62669" started-at="2015-09-01T05:54:46Z" finished-at="2015-09-01T05:55:49Z">
+      <class name="org.maui.selenium.web.WalmartFlowTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.maui.selenium.web.WalmartFlowTest@50b041f3]" name="setup" is-config="true" duration-ms="2352" started-at="2015-08-31T22:54:46Z" finished-at="2015-08-31T22:54:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logBeforeTest(java.lang.reflect.Method)[pri:0, instance:org.maui.selenium.web.WalmartFlowTest@50b041f3]" name="logBeforeTest" is-config="true" duration-ms="2" started-at="2015-08-31T22:54:48Z" finished-at="2015-08-31T22:54:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.maui.selenium.web.WalmartFlowTest.testFlow()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logBeforeTest -->
+        <test-method status="PASS" signature="testFlow()[pri:0, instance:org.maui.selenium.web.WalmartFlowTest@50b041f3]" name="testFlow" duration-ms="58818" started-at="2015-08-31T22:54:48Z" finished-at="2015-08-31T22:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlow -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.maui.selenium.web.WalmartFlowTest@50b041f3]" name="tearDown" is-config="true" duration-ms="1483" started-at="2015-08-31T22:55:47Z" finished-at="2015-08-31T22:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="logAfterTest(java.lang.reflect.Method)[pri:0, instance:org.maui.selenium.web.WalmartFlowTest@50b041f3]" name="logAfterTest" is-config="true" duration-ms="0" started-at="2015-08-31T22:55:47Z" finished-at="2015-08-31T22:55:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.maui.selenium.web.WalmartFlowTest.testFlow()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logAfterTest -->
+      </class> <!-- org.maui.selenium.web.WalmartFlowTest -->
+    </test> <!-- WalmartCheckoutTest -->
+  </suite> <!-- WalmartCheckout -->
+</testng-results>
