@@ -9,6 +9,10 @@ Please run the code using cmd
 
 mvn clean install -Dwebdriver.chrome.driver=/Users/priyanka.krishnaraj/Downloads/chromedriver
 
+Test case is located in file - src/main/java/org/maui/selenium/web/WalmartFlowTest.java
+
+Page Object models is located @ - src/main/java/org/maui/selenium/web/resources
+
 Technical Debts in the code
 
 1. CartPage has elements inly to support single item in cart, if you add more than one item the cartPage cannot handle it. - Given more time I would like to fix it.
